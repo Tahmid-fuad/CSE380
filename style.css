@@ -84,11 +84,14 @@ header{
   .menu-bar ul {
     list-style: none;
     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
   }
   .menu-bar ul li {
-    width: 250px;   
+    width: auto;   
     padding: 10px 30px;
-    /* text-align: center; */
     position: relative;
   }
   .menu-bar ul li a {
