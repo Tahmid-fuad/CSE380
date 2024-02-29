@@ -168,7 +168,7 @@ header{
     width: 50%;
     margin: 10px 20px;
     animation: anm;
-    animation-duration: 8s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
     /* animation; */
     /* animation-play-state: paused; */
@@ -188,7 +188,7 @@ header{
       background-position: center;
     }
     50%{
-      background: url(assets/bgtemp.jpg);
+      background: url(assets/picture-1.jpg);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
