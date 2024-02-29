@@ -11,13 +11,29 @@ header{
     background-size:cover;
     background-position: center;
     z-index: 1;
-    
+}
+.video{
+  position: absolute;
+  right:0;
+  bottom:0;
+  z-index: -5;
+}
+@media(min-aspect-ratio:16/9){
+  .video{
+    width:100%;
+    height: auto;
+  }
+  @media(max-aspect-ratio:16/9){
+    .video{
+      width:auto;
+      height: 100%;
+    }
 }
 .overlay{
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-color: black;
-    opacity: 65%;
+    opacity: 45%;
     position: absolute;
     z-index: -1;
 }
@@ -368,4 +384,5 @@ padding:0px;
 	padding:0px;
   list-style:none;
   line-height: 40px;
+}
 }
