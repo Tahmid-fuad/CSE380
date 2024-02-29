@@ -211,28 +211,32 @@ header{
     margin: 2% 3%;
     width: 45%;
     height: 40vh;
+    position: relative;
   }
   .footer .maps a{
     position: absolute;
-    padding-left: 5vh;
-    top: 5vh;
+    padding-left: 30px;
+    top: 30px;
     color: white;
     font-size: 25px;
   } 
   .footer .maps iframe{
-    margin:6vh auto;
-    padding-left: 5vh;
-    height: 220px;
-    width: 320px;
+    margin-top:70px;
+    margin-left: 20px;
+    /* padding-left: 5vh; */
+    aspect-ratio: 4/3;
+    /* height: 80%; */
+    width: 80%;
   }
   .footer .contacts{
     width: 30%;
     /* background-color: aqua; */
     text-decoration: none;
-    padding-left: 20vh;
+    padding-left: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* background-color: #00aed9; */
   }
   .footer .contacts a,.contacts h1{
     text-decoration: none;

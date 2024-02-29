@@ -11,10 +11,10 @@ body{
   background: linear-gradient(120deg,#2980b9, #ffffff);
   height: 100vh;
   overflow: hidden;
-  background-image: url(assets/pictures-3.jpg);
+  background-image: url(assets/loginbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 30%;
+  background-position:center;
 }
 .center{
   position: absolute;
@@ -23,6 +23,7 @@ body{
   transform: translate(-50%, -50%);
   width: 400px;
   background: white;
+  opacity: .9;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
 }
