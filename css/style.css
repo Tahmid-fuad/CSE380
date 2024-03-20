@@ -146,6 +146,50 @@
         opacity: 1;
     }
 }
+/* Notice panel */
+.heading-sect{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+	  border: 1px solid #cfcfcf;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #AB7442;
+	  color:white;
+}
+.upcoming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.upcoming-event-list{
+    padding:0px;
+     list-style:none;
+}
+.event-date {
+    background: #AB7442;
+    width: 45px;
+    float: left;
+    text-align: center;
+    font-size:14px;
+    color: #fff;
+    padding:8px;
+	    margin-right: 10px;
+}
+.notice-board-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.notice-board-list{
+padding:0px;
+}
 /* About section */
 .about_section .row {
     -webkit-box-align: center;
