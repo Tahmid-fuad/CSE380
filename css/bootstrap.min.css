@@ -89,8 +89,8 @@
 --bs-link-color:#AB7442;
 --bs-link-color-rgb:171, 116, 66;
 --bs-link-decoration:underline;
---bs-link-hover-color:#0a58ca;
---bs-link-hover-color-rgb:10,88,202;
+--bs-link-hover-color:black;
+--bs-link-hover-color-rgb:0,0,0;
 --bs-code-color:#d63384;
 --bs-highlight-color:#212529;
 --bs-highlight-bg:#fff3cd;
@@ -328,7 +328,7 @@ line-height:1.2}
 @media (min-width:1200px){.display-1{font-size:5rem}
 }
 .display-2{font-size:calc(1.575rem + 3.9vw);
-font-weight:300;
+font-weight:700;
 line-height:1.2}
 @media (min-width:1200px){.display-2{font-size:4.5rem}
 }
