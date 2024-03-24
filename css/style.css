@@ -389,7 +389,12 @@ padding:0px;
 .section-title.text-start h1::before {
     display: none;
 }
-
+.section-title h1 a {
+    color: black !important;
+}
+.section-title h1 a:hover {
+    color: #AB7442 !important;
+}
 
 /*** About ***/
 @media (min-width: 992px) {
